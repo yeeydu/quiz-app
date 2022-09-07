@@ -1,0 +1,42 @@
+export const Questions = [
+    {
+        prompt: "What is 1+3?",
+        optionA: "24",
+        optionB: "21",
+        optionC: "4",
+        optionD: "2",
+        answer: "C",
+    },
+    {
+        prompt: "Which is a stream platform?",
+        optionA: "Twitter",
+        optionB: "Twitch",
+        optionC: "Google",
+        optionD: "RobinHood",
+        answer: "B",
+    },
+    {
+        prompt: "Best tech youtube channel?",
+        optionA: "Pedrotech",
+        optionB: "Dev ed",
+        optionC: "Fireship",
+        optionD: "TechWithTim",
+        answer: "A",
+    },
+    {
+        prompt: "What is 6+4?",
+        optionA: "24",
+        optionB: "10",
+        optionC: "4",
+        optionD: "2",
+        answer: "B",
+    },
+    {
+        prompt: "Best Portugal soccer team",
+        optionA: "Porto",
+        optionB: "Benfica",
+        optionC: "Sporting",
+        optionD: "Braga",
+        answer: "A",
+    },
+];

@@ -26,14 +26,14 @@ const finishQuiz = ()=> {
     <div className='Quiz'>
         <h1>{Questions[currQuestion].prompt}</h1>
         <div className='Options'>
-            <button onClick={ ()=> setOptionChosen("A") }>{Questions[currQuestion].optionA}</button>
-            <button onClick={ ()=> setOptionChosen("B") }>{Questions[currQuestion].optionB}</button>
-            <button onClick={ ()=> setOptionChosen("C") }>{Questions[currQuestion].optionC}</button>
-            <button onClick={ ()=> setOptionChosen("D") }>{Questions[currQuestion].optionD}</button>
+            <button className='selected' onClick={ ()=> setOptionChosen("A") }>{Questions[currQuestion].optionA}</button>
+            <button className='selected' onClick={ ()=> setOptionChosen("B") }>{Questions[currQuestion].optionB}</button>
+            <button className='selected' onClick={ ()=> setOptionChosen("C") }>{Questions[currQuestion].optionC}</button>
+            <button className='selected' onClick={ ()=> setOptionChosen("D") }>{Questions[currQuestion].optionD}</button>
         </div>
         { currQuestion == Questions.length-1  ? 
-        ( <button onClick={finishQuiz}>Finish Quiz</button> ) : 
-        ( <button onClick={ nextQuestion}>Next Question</button> ) }
+        ( <button className='endBtn' onClick={finishQuiz}>Finish Quiz</button> ) : 
+        ( <button className='nextBtn' onClick={ nextQuestion}>Next Question</button> ) }
         
     </div>
   )

@@ -36,4 +36,35 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
+}
+
+button:hover{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #de6ffd;
+}
+
+/* Next button */
+.nextBtn:hover, .endBtn:hover{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: #f72d2d;
+}
+/* focus botton to make it highlighted or selected */
+.selected:focus {
+  border: 1px solid #f200ff;
+  background-color: #f200ff;
+  color: aliceblue;
 }

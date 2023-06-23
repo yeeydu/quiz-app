@@ -27,7 +27,7 @@ const finishQuiz = ()=> {
 
   return (
     <div className='Quiz'>
-        <h1>{Questions[currQuestion].prompt}</h1>
+        <h2 className='question'>{Questions[currQuestion].prompt}</h2>
         <div className='Options'>
             <button className='option' onClick={ ()=> setOptionChosen("A") }>{Questions[currQuestion].optionA}</button>
             <button className='option' onClick={ ()=> setOptionChosen("B") }>{Questions[currQuestion].optionB}</button>

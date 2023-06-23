@@ -36,6 +36,11 @@
   color: white;
 }
 
+.question{
+  text-align: center;
+  margin: 0 10px 20px 10px;
+}
+
 .Options {
   width: 100%;
   display: flex;
